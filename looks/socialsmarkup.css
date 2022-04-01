@@ -20,6 +20,7 @@
     border-style: solid;
     height: 900px;
     border-width: 25px, 10px, 4px, 35px; 
+    border-radius: 10px;
 }
 #center-socials-title{
     text-align: center;
