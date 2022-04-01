@@ -6,8 +6,9 @@
         <title>Welcome to Bosco GSA</title>
         <link rel="stylesheet" type="text/css" href="looks/designmainpage.css" media="screen" /</link>
         <link rel="stylesheet" type="text/css" href="looks/sideleft.css" media="screen" /</link>
+        <link rel="stylesheet" type="text/css" href="looks/lightdark.css" media="screen" /</link>
     </head>
-    <body id="background">
+    <body id="background" onload="checkCookie()">
         <!--Title-->
         <div class="rainbow-title-bar">
             <div id="rest">
@@ -20,20 +21,41 @@
                 </div>
             </div>
         </div>
-
         <!--light or dark theme-->
         <div class="main-content">
-            <img src="images/sun.png" id="moon-icon">
+            <img src="images/moon.png" id="moon-icon">
+            <p id="hover-me">
+                <b>Change your theme from light or to dark mode.</b>
+            </p>
         </div>
-
         <!--Show Content, left side-->
         <section class="parent">
             <div class="child">
-                <a href="otherpage/aboutus.html">
-                    <button id="one"><h3><i>About us</i></h3></button>
+                <a href="otherpage/oursocials.html">
+                    <button id="one" class="color-buttons">
+                        <h3><i>Our Socials</i></h3>
+                    </button>
                 </a>
             </div>
         </section>
-        <script src="magic.js"></script>
+    <div class="mission-statement-main">
+        <div class="mission-statement-title">
+            <h2>
+                What is our mission statement?
+            </h2>
+            <p id="get-away-from-border">
+                GSA is an inclusive and diverse club for the people. 
+                This is a safe haven for marginalized groups that may feel 
+                unrecognized or rejected by the school's 
+                mainstream student body. 
+                Also, the club provides a support group that's 
+                fully confidential, and the information being exposed, remains inside the club 
+                and has social aspects like meeting new people. 
+
+            </p>
+        </div>
+    </div>  
+    <script src="magic.js"></script>
+    <script src="dropmorecontent.js"></script>
     </body>
 </html>
