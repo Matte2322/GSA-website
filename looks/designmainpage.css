@@ -16,7 +16,7 @@ p {
 }
 #get-away-from-border{
     text-align: justify;
-    position: fixed;
+    position: sticky;
     margin-left: 165px;
 }
 
