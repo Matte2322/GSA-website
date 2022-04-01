@@ -1,6 +1,7 @@
 /* global fonts and background color */
 body {
     background-color: #f0ffff;
+    font-family: Arial;
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -8,6 +9,17 @@ h1 {
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Mission statement */
+.mission-statement-title{
+   text-align: center; 
+}
+#get-away-from-border{
+    text-align: justify;
+    position: fixed;
+    margin-left: 165px;
+}
+
 
 /* title */
 #title-bar {
@@ -34,8 +46,12 @@ p {
    text-align: right; 
 }
 #moon-icon {
-    width: 50px;
+    width: 20px;
     cursor: pointer;
 }
-
-/* left rect content */
+#hover-me{
+    display: none;
+    font-size: small;
+}#moon-icon:hover~#hover-me {
+    display: block;
+}
